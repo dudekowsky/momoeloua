@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-const releaseDate = new Date("2026-03-27T00:00:00").getTime();
+const releaseDate = new Date("2026-04-03T00:00:00").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
