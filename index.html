@@ -253,10 +253,25 @@
       </div>
 
       <div class="tour-right">
-        <form class="tour-form">
-          <label for="tour-email" class="tour-label">Get notified first</label>
-          <input id="tour-email" type="email" placeholder="Enter your email" required>
-          <button type="submit">Notify Me</button>
+        <form
+          action="https://buttondown.email/api/emails/embed-subscribe/williambode"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.email/williambode', 'popupwindow')"
+          class="tour-form"
+        >
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <button type="submit">
+        Notify Me
+        </button>
+
         </form>
       </div>
 
@@ -311,7 +326,7 @@
 
     <div class="socials">
       <a href="http://instagram.com/momoeloua" target="_blank" rel="noopener noreferrer">Instagram</a>
-      <a href="#" target="_blank" rel="noopener noreferrer">Spotify</a>
+      <!-- <a href="#" target="_blank" rel="noopener noreferrer">Spotify</a> -->
       <a href="http://youtube.com/@momoeloua" target="_blank" rel="noopener noreferrer">YouTube</a>
       <a href="http://tiktok.com/@momoeloua" target="_blank" rel="noopener noreferrer">TikTok</a>
     </div>
