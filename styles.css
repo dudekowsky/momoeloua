@@ -787,13 +787,13 @@ margin-top:30px;
 
 
 
-.tour{
+.live{
 position:relative;
 background:
 linear-gradient(to bottom, #090909 0%, #0d0d0d 100%);
 }
 
-.tour-card{
+.live-card{
 display:grid;
 grid-template-columns:1fr 420px;
 gap:40px;
@@ -811,7 +811,7 @@ border-radius:24px;
 box-shadow:0 20px 60px rgba(0,0,0,0.35);
 }
 
-.tour-intro{
+.live-intro{
 margin:0 0 24px 0;
 max-width:560px;
 font-size:18px;
@@ -819,13 +819,13 @@ line-height:1.8;
 opacity:0.88;
 }
 
-.tour-cities{
+.live-cities{
 display:flex;
 flex-wrap:wrap;
 gap:12px;
 }
 
-.tour-cities span{
+.live-cities span{
 display:inline-flex;
 align-items:center;
 padding:10px 16px;
@@ -837,7 +837,7 @@ letter-spacing:1px;
 text-transform:uppercase;
 }
 
-.tour-form{
+.live-form{
 display:flex;
 flex-direction:column;
 gap:14px;
@@ -847,14 +847,14 @@ background:rgba(0,0,0,0.28);
 border:1px solid rgba(255,255,255,0.08);
 }
 
-.tour-label{
+.live-label{
 font-size:12px;
 letter-spacing:3px;
 text-transform:uppercase;
 opacity:0.7;
 }
 
-.tour-form input{
+.live-form input{
 width:100%;
 padding:16px 18px;
 border-radius:14px;
@@ -865,16 +865,16 @@ font-size:15px;
 outline:none;
 }
 
-.tour-form input::placeholder{
+.live-form input::placeholder{
 color:rgba(255,255,255,0.45);
 }
 
-.tour-form input:focus{
+.live-form input:focus{
 border-color:rgba(255,59,59,0.7);
 box-shadow:0 0 0 3px rgba(255,59,59,0.12);
 }
 
-.tour-form button{
+.live-form button{
 border:none;
 padding:15px 20px;
 border-radius:999px;
@@ -886,29 +886,29 @@ cursor:pointer;
 transition:0.25s ease;
 }
 
-.tour-form button:hover{
+.live-form button:hover{
 transform:translateY(-2px);
 box-shadow:0 12px 30px rgba(255,59,59,0.25);
 }
 
 @media (max-width: 900px){
 
-.tour-card{
+.live-card{
 grid-template-columns:1fr;
 padding:24px;
 }
 
-.tour-left,
-.tour-right{
+.live-left,
+.live-right{
 text-align:center;
 }
 
-.tour-intro{
+.live-intro{
 margin-left:auto;
 margin-right:auto;
 }
 
-.tour-cities{
+.live-cities{
 justify-content:center;
 }
 
@@ -1026,4 +1026,58 @@ margin-left:auto;
 margin-right:auto;
 }
 
+}
+
+
+.legal-page{
+background:#0b0b0b;
+color:white;
+font-family:'Inter', sans-serif;
+}
+
+.legal-container{
+max-width:800px;
+margin:80px auto;
+padding:20px;
+}
+
+.back-link{
+display:inline-block;
+margin-bottom:40px;
+text-decoration:none;
+color:#ff3b3b;
+font-weight:600;
+}
+
+.back-link:hover{
+text-decoration:underline;
+}
+
+.legal-text{
+line-height:1.8;
+font-size:16px;
+opacity:0.9;
+}
+
+.legal-text h2{
+margin-top:40px;
+font-family:'Bebas Neue', sans-serif;
+letter-spacing:2px;
+}
+
+.legal-links{
+margin-top:10px;
+display:flex;
+gap:16px;
+font-size:13px;
+opacity:0.7;
+}
+
+.legal-links a{
+color:white;
+text-decoration:none;
+}
+
+.legal-links a:hover{
+color:#ff3b3b;
 }
